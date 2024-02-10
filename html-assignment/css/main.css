@@ -1,0 +1,47 @@
+body {
+    font-family: Tahoma, sans-serif;
+    font-size: 18px;
+}
+
+header, footer {
+    background-color: darkolivegreen;
+    color: white;
+}
+
+.site-title {
+    color: orange;
+}
+
+#my-image {
+    box-shadow: 0 0 2px 1px #000;
+}
+
+main ul {
+    list-style-type:square;
+}
+
+main li:nth-child(odd) {
+    background-color: lightsalmon;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav a {
+    text-decoration: none;
+    display: inline-block;
+    background-color: lightsalmon;
+    border: 1px solid darkslategrey;
+    color: darkslategrey;
+    transition: background-color 0.3s;
+}
+
+nav a:hover {
+    background-color: darkolivegreen;
+}
+
+nav a:hover {
+    color: white;
+}
+

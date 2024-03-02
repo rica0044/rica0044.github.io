@@ -1,3 +1,4 @@
+/* This setting is used to manipulate and style with CSS every element on the website. */
 html {
   box-sizing: border-box;
 }
@@ -21,7 +22,7 @@ body {
 }
 
 h1 {
-  position: absolute;
+  position: absolute; /* This is one of the value to change the position. */
   top: 50%;
   width: 100%;
   font-size: 50px;
@@ -31,7 +32,7 @@ h1 {
 }
 
 .site-header {
-  position: relative;
+  position: relative; /* This one is for change the position based in the original values of the website. */
   margin: -1em auto;
 }
 
@@ -39,6 +40,7 @@ img {
   width: 100%;
 }
 
+/* When a selector start with dot, is for select a class attribute. */
 .navigation a {
   text-decoration: none;
   display: inline-block;
@@ -61,18 +63,18 @@ img {
   margin: 0 auto;
   padding: 0;
   max-width: 1334px;
-  display: flex;
+  display: flex; /* This value allows me to flex a container. */
 }
 
 .navigation ul li {
-  display: inline-block;
+  display: inline-block; /* This element is for use all the space I need in the content, including width and height properties. */
   width: 50%;
   color: darkslategray;
   padding: 0%;
 }
 
 .navigation ul a {
-  display: block;
+  display: block; /* This element is for use width completely I need in the content. */
   width: auto;
 }
 
@@ -94,8 +96,8 @@ main {
 
 main img {
   width: 20%;
-  float: left;
-  margin: 0 1em 1em 0;
+  float: left; /* This property is used to move the content within its containing element. */
+  margin: 0 1em 1em 0; /* 0 is for adjust the top value, the first 1em is for adjust the bottom, the second 1em for adjust the left and the last 0 is for adjust the right. */
 }
 
 p {
@@ -113,6 +115,7 @@ form {
   padding: 1em;
 }
 
+/* In this case those are the values I used to style the button. */
 button {
   color: black;
   border: 1px solid black;

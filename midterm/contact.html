@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link href="css/main.css" rel="stylesheet">
+</head>
+
+<body>
+    <div class="content">
+        <header class="site-header">
+            <h1>Lone Starfish</h1>
+            <img src="images/lone-starfish-wide.jpg" alt="Starfish">
+        </header>
+        <nav class="navigation">
+            <ul>
+                <li>
+                    <a href="index.html">Home</a>
+                </li>
+                <li>
+                    <a class="story" href="story.html">Story</a>
+                </li>
+                <li>
+                    <a href="contact.html">Contact</a>
+                </li>
+            </ul>
+        </nav>
+        <main>
+            <section class="contact">
+                <h3>Contact to learn more</h3>
+                <form action="contact.html" method="get">
+                    <label for="yourname">Your Name</label>
+                    <br>
+                    <input id="yourname" type="text" name="yname" placeholder="Jane Doe" required>
+                    <br>
+                    <label for="youremail">Email</label>
+                    <br>
+                    <input id="youremail" type="email" name="email" placeholder="janedoe@gmail.com" required>
+                    <br>
+                    <label for="yourmessage">Your Message</label>
+                    <br>
+                    <textarea id="yourmessage" name="yourmessage"></textarea>
+                    <h4>Would you like to visit the starfish?</h4>
+                    <label for="yes">Yes</label>
+                    <input id="yes" type="radio" name="yesselection" value="yes">
+                    <label for="no">No</label>
+                    <input id="no" type="radio" name="noselection" value="no">
+                    <label for="maybe">Maybe</label>
+                    <input id="maybe" type="radio" name="maybeselection" value="maybe">
+                    <br>
+                    <button type="submit">SEND</button>
+                </form>
+            </section>
+        </main>
+        <footer>
+            <p class="footer">&copy; Lone Starfish.</p>
+        </footer>
+    </div>
+</body>
+
+</html>

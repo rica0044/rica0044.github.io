@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <script src="https://kit.fontawesome.com/bf621779b5.js" crossorigin="anonymous"></script> <!-- This is the tag that makes the icons work -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet"> <!-- fonts I chose to the website, unless you recommend us another font -->
+    <link href="css/main.css" rel="stylesheet">
+</head>
+<body>
+    <nav> <!-- Add black background and yellow color fonts and hover in yellow with black font and light weight -->
+        <img src="images/logo.png" alt="Logo Three Star Media">
+        <ul>
+            <li>
+                <a class="home" href="index.html">Home</a>
+            </li>
+            <li>
+                <a class="about-us" href="about-us.html">About Us</a>
+            </li>
+            <li>
+                <a class="services" href="services.html">Services</a>
+            </li>
+            <li>
+                <a class="team" href="team.html">Team</a>
+            </li>
+            <li>
+                <a class="contact" href="contact.html">Contact</a>
+            </li>
+        </ul>
+    </nav> <!-- Navigation bar background is black and yellow for the font color -->
+    <form action="search-box" method="post">
+        <input type="search" id="search" name="search">
+        <button class="btn-search" type="button">
+            <i class="fa-solid fa-magnifying-glass"></i> <!-- Change color of Icon decoration to yellow and add border -->
+        </button>
+    </form>
+    <div class="contact-us">
+        <h2>Contact Us</h2>
+        <h3>Send us a message</h3>
+        <form action="contact.html"> <!-- Adjust the width with css -->
+            <label for="fullname">Full Name</label>
+            <br>
+            <input id="fullname" type="text" name="fname" required>
+            <br>
+            <br>
+            <label for="email">Email</label>
+            <br>
+            <input id="email" type="email" name="email" required>
+            <br>
+            <br>
+            <label for="message">Message</label>
+            <br>
+            <textarea id="message" name="message"></textarea>
+            <br>
+            <button type="submit">Send</button> <!-- Add black color to fill and yellow font -->
+        </form>
+    </div>
+    <br>
+    <div class="table"> <!-- Add border to the table and formating -->
+        <table>
+            <thead> <!-- Add yellow to the head of the table -->
+                <tr>
+                    <th>Days</th>
+                    <th>Hours</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Monday - Friday</td>
+                    <td>9 AM - 6 PM</td>
+                </tr>
+                <tr>
+                    <td>Saturday - Sunday</td>
+                    <td>Closed</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <br>
+    <div class="location"> <!-- Adjust width and remove border with css -->
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d179452.44513004564!2d-75.89500138359375!3d45.34993349999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cce0718cc4a6ad7%3A0xc6cc467725843e2b!2sAlgonquin%20College%20-%20Ottawa%20Campus!5e0!3m2!1sen!2sca!4v1711936743699!5m2!1sen!2sca" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+    <footer class="footer"> <!-- Add a black background and yellow fonts -->
+        <p>&copy; Copyright Three Star Media, 2020</p>
+        <p>All images are taken from <a href="#">Unsplash</a></p>
+    </footer>
+</body>
+</html>
